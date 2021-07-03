@@ -28,6 +28,8 @@ p{
 
 .hero-section{
     margin-top: 10px;
+    background: url(../img/top-banner.png);
+    background-repeat: no-repeat;
 }
 
 .first-col-text{
@@ -53,11 +55,10 @@ p{
     letter-spacing: 1px;
 }
 
-.name{
-
-}
-
 .profile-photo img{
-
     width: 80%;
 }
+
+/*---------------------*/
+/* section two start */
+/*---------------------*/
