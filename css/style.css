@@ -88,6 +88,7 @@ p{
 .sec-three{
     background: url(../img/exp-bg.png);
     background-repeat: no-repeat;
+    background-position: left;
     margin-bottom: 50px;
 }
 
@@ -95,12 +96,16 @@ p{
     color: tomato;
 }
 
+.sec3-row{
+    margin-top: 25px;
+}
+
 .experience-item{
     width: 40%;
+    height: 80%;
     box-shadow: 10px 10px 40px gray;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 25px;
     padding: 15px;
     border-radius: 5px;
 }
@@ -115,4 +120,15 @@ p{
     border-left: 7px solid;
     border-image: linear-gradient(blue,cyan);
     border-image-slice: 1;
+}
+
+/*---------------------*/
+/* footer section */
+/*---------------------*/
+footer{
+    margin-top: 100px;
+}
+
+footer p{
+    text-align: center;
 }
