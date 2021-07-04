@@ -17,6 +17,9 @@ h1{
 h2{
     font-size: 30;
 }
+h3{
+    font-size: 21px;
+}
 p{
     font-size: 17px;
 }
@@ -76,4 +79,40 @@ p{
 
 .sec2-col-two{
     padding-top: 100px;
+}
+
+/*---------------------*/
+/* section three start */
+/*---------------------*/
+
+.sec-three{
+    background: url(../img/exp-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+.dot{
+    color: tomato;
+}
+
+.experience-item{
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#web-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#graphic-designer{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
 }
