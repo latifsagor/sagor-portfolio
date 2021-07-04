@@ -54,7 +54,8 @@ p{
     font-size: 30px;
 }
 
-.button{
+.button:link,
+.button:visited{
     padding: 10px 30px;
     text-decoration: none;
     background-image: linear-gradient(45deg, lightsalmon, #ff6347);
@@ -63,6 +64,13 @@ p{
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.button:hover,
+.button:active{
+    background-image: linear-gradient(45deg, #ff7c47, #ff4625);
+    color: #222;
 }
 
 .profile-photo{
