@@ -16,7 +16,7 @@ h1{
     color: #222;
 }
 h2{
-    font-size: 45px;
+    font-size: 40px;
     color: #222;
 }
 h3{
@@ -34,13 +34,12 @@ p{
 /*---------------------*/
 
 .hero-section{
-    margin-top: 10px;
     background: url(../img/top-banner.png);
     background-repeat: no-repeat;
 }
 
 .first-col-text{
-    padding-top: 85px;
+    padding-top: 35px;
 }
 
 .name{
@@ -49,6 +48,10 @@ p{
 
 .first-col-text h1{
     text-transform: uppercase;
+}
+
+.first-col-text h2{
+    font-size: 30px;
 }
 
 .button{
@@ -60,6 +63,10 @@ p{
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+.profile-photo{
+    margin-top: 11px;
 }
 
 .profile-photo img{
