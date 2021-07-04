@@ -13,15 +13,19 @@ body{
 }
 h1{
     font-size: 50px;
+    color: #222;
 }
 h2{
-    font-size: 30;
+    font-size: 45px;
+    color: #222;
 }
 h3{
     font-size: 21px;
 }
 p{
     font-size: 17px;
+    color: #555;
+    word-spacing: 1px;
 }
 
 
@@ -93,7 +97,6 @@ p{
 }
 
 #exp{
-    font-size: 45px;
     margin-left: 5%;
 }
 
@@ -107,6 +110,8 @@ p{
 
 .skill-label{
     color: orange;
+    font-weight: 400;
+    font-style: italic;
 }
 
 .experience-item{
